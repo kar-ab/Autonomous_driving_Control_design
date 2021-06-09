@@ -6,14 +6,14 @@ This project is used to design a controller of an autonomous driving vehicle wit
 This project is part of final assignment for [Introduction to Self-Driving Cars](https://www.coursera.org/learn/intro-self-driving-cars?specialization=self-driving-cars) on [Coursera- Self Driving Specialization](https://www.coursera.org/specializations/self-driving-cars)
 
 
-As part of control design, longitudinal speed  controll is done using PID control and Stanley Control used for lateral steering control.
+As part of control design, longitudinal speed  control is done using PID control and Stanley Control is used for lateral steering control.
 
 -----
 
 ## Prerequisites 
 
 
-1. Install python3.5/6 and install tkinter module 
+1. Install python tkinter module 
 2. Install Carla Simulator, corresponding steps can be found in [Ubuntu Guide](https://github.com/kar-ab/Autonomous_driving_Control_design/blob/master/CARLA-Setup-Guide-_Ubuntu_.pdf)
 3. Clone this project contents in "PythonClient" Folder of Carla Simulator installed directory
 
