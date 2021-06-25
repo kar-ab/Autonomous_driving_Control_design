@@ -1,21 +1,22 @@
 # Vehicle Control of Self Driving Car
 
-This project is used to design a controller of an autonomous driving vehicle with predefined waypoints and velocity profile in Carla Simulator.
 
+This project implementation of final assignment for [Introduction to Self-Driving Cars](https://www.coursera.org/learn/intro-self-driving-cars?specialization=self-driving-cars) on [Coursera- Self Driving Specialization](https://www.coursera.org/specializations/self-driving-cars)
 
-This project is part of final assignment for [Introduction to Self-Driving Cars](https://www.coursera.org/learn/intro-self-driving-cars?specialization=self-driving-cars) on [Coursera- Self Driving Specialization](https://www.coursera.org/specializations/self-driving-cars)
+In this project, Vehicle Control (Longitudinal and Lateral) of Self Driving Vehicle is performed using Carla Simulator.
 
+This goal of this project is to design a controller which takes predefined waypoints (x and y position) with velocity profile (speed to attain at each waypoint) as input and output Throttle, Brake and Steering commands to the self driving vehicle.
 
-As part of control design, longitudinal speed  control is done using PID control and Stanley Control is used for lateral steering control.
+As part of control design, longitudinal speed control (i.e. throttle and brake commands) is performed using PID control and Stanley Control is used for lateral steering control.
 
 -----
 
-## Prerequisites 
+## Setup
 
 
-1. Install python tkinter module 
-2. Install Carla Simulator, corresponding steps can be found in [Ubuntu Guide](https://github.com/kar-ab/Autonomous_driving_Control_design/blob/master/CARLA-Setup-Guide-_Ubuntu_.pdf)
-3. Clone this project contents in "PythonClient" Folder of Carla Simulator installed directory
+1. Install Carla Simulator, corresponding steps can be found in [Ubuntu Guide](https://github.com/kar-ab/Autonomous_driving_Control_design/blob/master/CARLA-Setup-Guide-_Ubuntu_.pdf)
+2. Install python tkinter module 
+3. Clone this project contents in "PythonClient" Folder of Carla Simulator directory
 
 ## Run
 
