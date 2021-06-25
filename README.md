@@ -34,6 +34,8 @@ As part of control design, longitudinal speed control (i.e. throttle and brake c
 
 [racetrack_waypoints.txt](../blob/master/Course1FinalProject/racetrack_waypoints.txt): Contains list of x, y position and the respective speed to attain at each waypoint.
 
+[module_7.py](../blob/master/Course1FinalProject/module_7.py): Carla client to execute vehicle commands
+
 [controller2D.py](../blob/master/Course1FinalProject/controller2D.py): Script containing controller design
 
 [controller_output](../blob/master/Course1FinalProject/controller_output): Folder Containing results of trajectory followed by controller
