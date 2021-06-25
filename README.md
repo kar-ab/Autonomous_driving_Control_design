@@ -5,7 +5,7 @@ This project is implementation of final assignment for [Introduction to Self-Dri
 
 In this project, Vehicle Control (Longitudinal and Lateral) of Self Driving Vehicle is performed using Carla Simulator.
 
-This goal of this project is to design a controller, which follows trajectory defined using predefined waypoints (x and y position) and velocity profile (speed at each waypoint). And output Throttle, Brake and Steering commands to the self driving vehicle.
+This goal of this project is to design a controller, which follows trajectory defined using predefined waypoints (x and y position) and velocity profile (speed at each waypoint) by providing Throttle, Brake and Steering commands to the self driving vehicle.
 
 As part of control design, longitudinal speed control (i.e. throttle and brake commands) is performed using PID control and Stanley Control is used for lateral steering control.
 
