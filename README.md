@@ -29,21 +29,13 @@ As part of control design, longitudinal speed control (i.e. throttle and brake c
 
 	`$ python3 /Course1FinalProject/module_7.py`
 
-
-## Details
-
-[racetrack_waypoints.txt](../blob/master/Course1FinalProject/racetrack_waypoints.txt): Contains list of x, y position and the respective speed to attain at each waypoint.
-
-[module_7.py](../blob/master/Course1FinalProject/module_7.py): Carla client to execute vehicle commands
-
-[controller2D.py](../blob/master/Course1FinalProject/controller2D.py): Script containing controller design
-
-[controller_output](../blob/master/Course1FinalProject/controller_output): Folder Containing results of trajectory followed by controller
-
-[grade_c1m7.py](../blob/master/Course1FinalProject/grade_c1m7.py): Grading script provided by Coursera for evaluation of designed Controller
-
-
 ## Results
+
+<b>Green Line</b> Trajectory defined using waypoints
+
+<b>Orange Line</b> Path travelled by vehicle using the designed Motion Planner
+
+![alt_text](https://github.com/kar-ab/Motion-Planning-for-Self-Driving-Car//blob/main/Course4FinalProject/controller_output/trajectory.png?raw=true)
 
 
 ## Credits: 
