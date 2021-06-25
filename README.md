@@ -1,4 +1,4 @@
-# Autonomous_driving_Control_design
+# Vehicle Control of Self Driving Car
 
 This project is used to design a controller of an autonomous driving vehicle with predefined waypoints and velocity profile in Carla Simulator.
 
