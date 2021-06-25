@@ -14,7 +14,7 @@ As part of control design, longitudinal speed control (i.e. throttle and brake c
 ## Setup
 
 
-1. Install Carla Simulator, corresponding steps can be found in [Ubuntu Guide](https://github.com/kar-ab/Autonomous_driving_Control_design/blob/master/CARLA-Setup-Guide-_Ubuntu_.pdf)
+1. Install Carla Simulator, corresponding steps can be found in [Ubuntu Guide](https://github.com/kar-ab/Autonomous_driving_Control_design/blob/master/CARLA-Setup-Guide-_Ubuntu_.pdf).
 2. Install python tkinter module 
 3. Clone this project contents in "PythonClient" Folder of Carla Simulator directory
 
@@ -27,3 +27,12 @@ As part of control design, longitudinal speed control (i.e. throttle and brake c
 2. On another terminal, run client module 
 
 	$ python3 /Course1FinalProject/module_7.py
+
+
+## Explanation
+
+[racetrack_waypoints.txt] (../blob/master/Course1FinalProject/racetrack_waypoints.txt):
+
+	Contains list of x, y position and the respective speed to attain at this waypoint.
+	
+[controller2D.py] (../blob/master/Course1FinalProject/controller2D.py)
