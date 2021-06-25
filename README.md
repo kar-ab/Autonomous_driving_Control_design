@@ -41,4 +41,5 @@ As part of control design, longitudinal speed control (i.e. throttle and brake c
 ## Credits: 
 
 University of Toronto
+
 [Coursera](https://www.coursera.org/)
